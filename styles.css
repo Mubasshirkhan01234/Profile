@@ -491,6 +491,7 @@ svg {
 .projects__title{
   font-size: medium;
   margin-bottom: .75rem;
+  text-align: center;
 }
 
 .projects__button{
@@ -663,7 +664,20 @@ svg {
 
   .projects__title{
     font-size: medium;
-  }
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }  
+}
+
+@media screen  and (max-width: 412px){
+
+  .projects__title{
+    font-size: medium;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }  
 }
 
 /* For medium devices */
